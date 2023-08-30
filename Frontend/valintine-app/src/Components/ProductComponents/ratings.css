@@ -1,0 +1,12 @@
+@media all and (min-width: 0px) and (max-width: 768px) {
+
+      
+    #ratings-box{
+/* border: 1px solid red; */
+        min-width:90%;
+    }
+
+
+    
+
+}

@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navdropcon {
+  width: 95%;
+  background-color: white;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+  margin-top: 4px;
+  padding: 10px 0px;
+}
+.dropdown {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0px;
+  background-color: #fff;
+}
+
+.dropdown > div > h3 {
+  font: size 1.1rem;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.navdropconList > li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+}
+
+.dropdown {
+  display: flex;
+  gap: 10px;
+}
+
+.dropdown > li {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  gap: 10px;
+}
+
+.navdropconList > li > span a {
+  color: rgb(51, 54, 62);
+}
+
+.dropdown > li > div {
+  display: flex;
+  width: 20px;
+  align-items: center;
+}
+
+.dropdown > li > div > img {
+  width: 100%;
+}
+
+.dropdown > li > span > a {
+  display: inline-block;
+  color: rgb(51, 54, 62);
+}
+
+.shopBY > ul > li {
+  padding: 10px;
+  color: rgb(51, 54, 62);
+  text-align: left;
+}
+
+.navdropcon a:hover {
+  font-size: 0.9rem;
+}
+
+.navdropconList > li > span > a:hover {
+  color: rgb(255, 65, 139);
+  font-size: 15px;
+}
+.navdropconList>li>span>a{
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+.navdropconList .firstLink {
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+
+.navdropconList .firstLink:hover {
+  color: #333;
+  font-size: 18px;
+}

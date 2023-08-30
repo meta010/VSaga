@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#addons-card {
+  border: 1px solid rgb(14, 13, 13);
+  height: auto;
+  /* width: 45%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+#addons-img {
+  /* border: 1px solid red; */
+  margin-left: -20px;
+  border-radius: 10px;
+}
+/* #addons-card>input{
+    height: 20px;
+    width: 50px;
+} */
+
+/* #addons-card>div:nth-child(1)>img{
+    width: 50%;
+    height: 30%;
+} */

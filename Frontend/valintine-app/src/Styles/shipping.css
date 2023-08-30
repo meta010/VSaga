@@ -1,0 +1,84 @@
+.address-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 1px solid ; */
+    border-radius: 5px;
+    /* min-width: 50%; */
+    text-align: start;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius:20px ;
+    background: white;
+
+  }
+  
+  .address-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .address-container form input{
+    margin-bottom: 10px;
+    width:50%;
+    /* border: 1px solid red; */
+  }
+  .address-container div label{
+  text-align: left;
+  float: left;
+  margin-bottom: 10px;
+  text-align: start;
+  font-size: 20px;
+  color: black;
+  }  
+  .address-container label {
+    display: block;
+    text-align: start;
+    font-weight: bold;
+  }
+  
+  .address-container input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #0b0a0a;
+    border-radius: 5px;
+  }
+  
+ 
+  .address-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1224px) {
+    .address-container{
+      width: 90%;
+      margin: auto;
+    }
+    .address-container>input{
+      width: 80%;
+    }
+    
+}
+
+@media all and (min-width: 0px) and (max-width: 768px) {
+    
+  .address-container{
+    width: 90%;
+    margin: auto;
+  }
+  .address-container>button{
+    width: 50%;
+
+  }
+  .address-container .saveadd{
+    width: 50%;
+    height: auto;
+  }
+
+  
+}
+  

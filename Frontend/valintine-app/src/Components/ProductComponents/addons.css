@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#addons-cont{
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px 5px;
+}
+
+
+#addons-cont>div{
+    /* border: 1px solid red; */
+    min-width: 50%;
+
+}

@@ -1,0 +1,43 @@
+/* Reset default styles to avoid browser inconsistencies */
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: none;
+    padding: 8px; /* Adjust the padding as per your design */
+    font-size: 16px; /* Adjust the font size as per your design */
+    border: 2px solid #ccc; /* Adjust the border color and size as per your design */
+    border-radius: 4px; /* Adjust the border-radius as per your design */
+    color: #333; /* Adjust the text color as per your design */
+    width: 200px; /* Adjust the width as per your design */
+    cursor: pointer;
+  }
+  
+  /* Style the dropdown arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  
+  select::after {
+    content: '\25BC'; /* Unicode for a downward-pointing triangle or arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #666; /* Adjust the arrow color as per your design */
+    font-size: 12px; /* Adjust the arrow size as per your design */
+  }
+  
+  /* Style the option elements within the dropdown */
+  select option {
+    background-color: #f8f8f8; /* Adjust the background color of options */
+    color: #333; /* Adjust the text color of options */
+  }
+  
+  /* Style the option on hover/focus */
+  select option:hover,
+  select option:focus {
+    background-color: #e0e0e0; /* Adjust the hover/focus background color of options */
+  }
+  

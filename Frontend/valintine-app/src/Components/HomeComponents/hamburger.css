@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hamburger{
+    height: 70%;
+    width: 100%;
+    padding: 3px ;
+    /* border-radius: 50%; */
+
+}
+
+/* @media all and (min-width: 0px) and (max-width: 768px) {
+    
+    .hamburger{
+        height: 50%;
+        width: 50%;
+    }
+    
+
+} */
+
+@media screen and (min-width: 0px) and (max-width: 350px){
+    .hamburger{
+        height: 20px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+  
+}
+@media screen and (min-width: 350px) and (max-width: 600px){
+    .hamburger{
+        height: 60%;
+        width:100%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+  
+  
+}

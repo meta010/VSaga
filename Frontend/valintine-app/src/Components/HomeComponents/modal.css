@@ -1,0 +1,88 @@
+.cities-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
+  width: 100%;
+  gap: 10px;
+}
+.cities{
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  transition: 1s ease-in-out;
+}
+.cities>p{
+  text-align: center;
+}
+
+.cities:hover{
+  margin-top: -15px;
+  
+}
+.modal-img{
+  display: block;
+  margin: auto;
+  width:50%;
+  height: 70%;
+}
+.modal-cont{
+ margin-top: 30px;
+}
+
+.city-modal {
+  width: 100%;
+}
+
+@media all and (min-width: 915px) and (max-width: 3000px) {
+  .locationbtn{
+    margin-top: -30px;
+    height: 100%;
+    margin-right: 10px;
+    color: rgb(155, 121, 126);
+    outline: 1px;
+    }
+    .locationbtn>img{
+      width: 22%;
+      height: 100%;
+    }
+    
+}
+@media all and (min-width: 0px) and (max-width: 915px) {
+  /* .locationbtn{
+    margin-top: -60px;
+    height: auto;
+    } */
+    .locationbtn>img{
+      width: 40%;
+      height: 100%;
+    }
+ }
+@media all and (min-width: 0px) and (max-width: 500px) { 
+  .cities-cont {
+
+    width: 100%;
+    overflow: hidden;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .cities{
+    /* width: 50%; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    font-size: small;
+  
+  }
+  .modal-img{
+    display: block;
+    margin: auto;
+    width:50%;
+    height: 50%;
+  }
+  .locationbtn>img{
+    width: 35%;
+    height: 100%;
+  }
+}

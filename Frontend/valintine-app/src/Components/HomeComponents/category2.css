@@ -1,0 +1,39 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.category-cont{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.category-cont>div>img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    
+}
+.cat2-img{
+    
+    border-radius: 10px;
+
+}
+@media all and (min-width: 0px) and (max-width: 768px) {
+   
+    .category-cont{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    
+    }
+
+}

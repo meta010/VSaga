@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.admintable{
+width: 100%;
+margin: auto;
+}
+.admintable>thead>tr{
+display: flex;
+}

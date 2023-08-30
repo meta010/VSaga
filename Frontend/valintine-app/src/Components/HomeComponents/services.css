@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.service-cont1 {
+  height: auto;
+  width: 80%;
+  font-size: 0.8rem;
+  margin: auto;
+  margin-top: 15px;
+}
+.service-cont2 {
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 0.8rem;
+}
+.service-cont1 > p {
+  text-align: center;
+}
+.service-cont2 > p {
+  text-align: center;
+}
+
+#service-img1 {
+  height: 50%;
+  width: 14%;
+  display: block;
+  margin: auto;
+}
+
+#service-img2 {
+  height: 50%;
+  width: 14%;
+  display: block;
+  margin: auto;
+}
+
+@media all and (min-width: 768px) and (max-width: 1224px) {
+  .service-cont1 {
+    font-size: 1.2rem;
+  }
+  .service-cont2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media all and (min-width: 0px) and (max-width: 768px) {
+}

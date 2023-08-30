@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.cont-cat {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 95%;
+  margin: auto;
+  gap: 30px;
+  margin-top: 30px;
+  
+}
+.cont-cat > div >a> img {
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  margin: auto;
+  /* border-radius: 50%; */
+}
+.cont-cat > div > img:hover {
+  margin-top: -20px;
+}
+
+@media all and (min-width: 0px) and (max-width: 768px) {
+    .cont-cat {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 99%;
+        margin: auto;
+        margin-top: 30px;
+        gap: 20px;
+      }
+      .cont-cat>div{
+        margin: auto
+      }
+      .cont-cat-3{
+        grid-column: 1 / 3;
+      }
+}

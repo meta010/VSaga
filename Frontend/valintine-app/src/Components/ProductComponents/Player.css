@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.video-player > div > iframe{
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+@media all and (min-width: 0px) and (max-width: 768px) {
+    
+    .video-player > div > iframe{
+        height: 300px;
+    }
+  
+
+    
+
+}

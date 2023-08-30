@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+  background: #f7f9fc;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  height: auto;
+}
+
+.form-container {
+  background: #f7f9fc;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  min-height: 300px;
+  max-width: 500px;
+  /* padding: 10px; */
+  width: 100%;
+  height: auto;
+}
+label{
+  text-align: left;
+}
+.form-container h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.registerbtn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.registerbtn:hover {
+  background: #0056b3;
+}
+
+.toggle-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.toggle-link {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.form-transition-enter {
+  opacity: 0;
+  transform: translateX(-50%);
+}
+
+.form-transition-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.form-transition-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.form-transition-exit-active {
+  opacity: 0;
+  transform: translateX(50%);
+  transition: opacity 300ms, transform 300ms;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .form-container {
+    margin: 10px 0;
+  }
+}

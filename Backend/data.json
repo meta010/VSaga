@@ -1,0 +1,675 @@
+{
+  "data": {
+    "cakes": [
+      {
+        "name": "Alluring Rasmalai Vanilla Cake",
+        "price": "₹599.00 – ₹1,799.00",
+        "multiple_price": [
+          { "price": 599, "weight": 0.5 },
+          { "weight": 1, "price": 1049 },
+          { "weight": 2, "price": 1799 }
+        ],
+        "weight": 1,
+        "city": "delhi",
+        "category": "cake",
+        "addons": [],
+        "reviews": [],
+        "description": [
+          "FRUIT :1Kg",
+          "VANILLA : 1Kg",
+          "WEIGHT:0.5Kg , 1Kg ,2kg"
+        ],
+        "prod_details": [
+          "Cake Flavour: Rasmalai",
+          "Shape: Round",
+          "Type of Cake: Cream",
+          "Type of Sponge: Vanilla",
+          "Type of Cream: Vanilla ",
+          "Filling in Layers: Vanilla cream ",
+          "Toppings: Pistachio and Rasmalai."
+        ],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/05/Alluring-Rasmalai-Vanilla-Cake4.1.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/05/Alluring-Rasmalai-Vanilla-Cake4.2.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/05/Alluring-Rasmalai-Vanilla-Cake4.3.png"
+        ],
+        "delivery_info": [
+          "Our delivery boy hand-delivers the delicious cake in a good quality cardboard box.",
+          "Candles and knives are complementary, but they will deliver as per availability.",
+          "Every cake we offer is handcrafted, and since each chef has his/her way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+          "This product is perishable therefore delivery will be attempted once the delivery cannot redirect to any other address.",
+          "We promise express delivery to provide superior customer services with the delivery cannot redirect to any other address.",
+          "This product is hand delivered and will not deliver along with courier products. Occasionally, substitutions of flavors/designs are necessary due to temporary and regional unavailability issues"
+        ]
+      },
+      {
+        "name": "Vanilla Buttercream Cake",
+        "price": "₹599.00 – ₹1,799.00",
+        "weight": 1,
+        "city": "delhi",
+        "category": "cake",
+        "multiple_price": [
+          { "weight": 0.5, "price": 599 },
+          { "weight": 1, "price": 1049 },
+          { "price": 1799, "weight": 2 }
+        ],
+        "addons": [],
+        "reviews": [],
+        "quantity": 1,
+        "userID": "64b23d0170d05c818e1aa062",
+        "_id": "64b23d0170d05c818e1aa062",
+        "productID": "64b23d0170d05c818e1aa062",
+        "description": [
+          "FRUIT :1Kg",
+          "VANILLA : 1Kg",
+          "WEIGHT:0.5Kg , 1Kg ,2kg"
+        ],
+        "prod_details": [
+          "Cake Flavour – Vanilla",
+          "Version – Eggless",
+          "Type of Cake – Cream",
+          "Weight – Half Kg",
+          "Shape- Round",
+          "Serves – 4-6 People",
+          "Size – 6 inches in Diameter"
+        ],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Vanilla-Buttercream-Cake3.1.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Vanilla-Buttercream-Cake3.2.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Vanilla-Buttercream-Cake3.4.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Vanilla-Buttercream-Cake3.5.jpg"
+        ],
+        "delivery_info": [
+          "Our delivery boy hand-delivers the delicious cake in a good quality cardboard box.",
+          "Candles and knives are complementary, but they will deliver as per availability.",
+          "Every cake we offer is handcrafted, and since each chef has his/her way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+          "This product is perishable therefore delivery will be attempted once the delivery cannot redirect to any other address.",
+          "We promise express delivery to provide superior customer services with the delivery cannot redirect to any other address.",
+          "This product is hand delivered and will not deliver along with courier products. Occasionally, substitutions of flavors/designs are necessary due to temporary and regional unavailability issues"
+        ]
+      },
+      {
+        "name": "Red Velvet Heart Cream Cake",
+        "price": "₹749.00 – ₹2,349.00",
+        "weight": 1,
+        "city": "kolkata",
+        "category": "cake",
+        "quantity": 1,
+        "userID": "64b23973e7b4bf74bb5ef6ea",
+        "_id": "64b239f3fb3329b2cb5a4c0e",
+        "productID": "64b239f3fb3329b2cb5a4c0e",
+        "multiple_price": [
+          { "weight": 0.5, "price": 749 },
+          { "weight": 1, "price": 1249 },
+          { "price": 2349, "weight": 2 }
+        ],
+        "addons": [],
+        "reviews": [],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/03/red-velvet-heart-cream2.1.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/red-velvet-heart-cream2.2.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/red-velvet-heart-cream2.3.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/red-velvet-heart-cream2.4.jpg"
+        ],
+        "description": [
+          "FRUIT :1Kg",
+          "VANILLA : 1Kg",
+          "WEIGHT:0.5Kg , 1Kg ,2kg"
+        ],
+        "prod_details": [
+          "Cake Flavour – Red Velvet",
+          "Version – Eggless",
+          "Type of Cake – Cream",
+          "Weight – Half Kg",
+          "Shape- Round",
+          "Serves – 4-6 People",
+          "Size – 6 inches in Diameter"
+        ],
+        "delivery_info": [
+          "Our delivery boy hand-delivers the delicious cake in a good quality cardboard box.",
+          "Candles and knives are complementary, but they will deliver as per availability.",
+          "Every cake we offer is handcrafted, and since each chef has his/her way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+          "This product is perishable therefore delivery will be attempted once the delivery cannot redirect to any other address.",
+          "We promise express delivery to provide superior customer services with the delivery cannot redirect to any other address.",
+          "This product is hand delivered and will not deliver along with courier products. Occasionally, substitutions of flavors/designs are necessary due to temporary and regional unavailability issues"
+        ]
+      },
+      {
+        "name": "Delicious Black Forest Gems Cakes",
+        "price": "₹649.00 – ₹1,049.00",
+        "weight": 1,
+        "city": "chandigarh",
+        "category": "cake",
+        "multiple_price": [
+          { "weight": 0.5, "price": 649 },
+          { "weight": 1, "price": 1049 }
+        ],
+        "addons": [],
+        "reviews": [],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/03/black-delici5.1-500x500.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/black-delici5.2-500x500.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/black-delici5.3-500x500.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/black-delici5.4-500x500.jpg"
+        ],
+        "description": [
+          "FRUIT :1Kg",
+          "VANILLA : 1Kg",
+          "WEIGHT:0.5Kg , 1Kg ,2kg"
+        ],
+        "prod_details": [
+          "Cake Flavour – Black Forest",
+          "Version – Eggless",
+          "Type of Cake – Cream",
+          "Weight – Half Kg",
+          "Shape- Round",
+          "Serves – 4-6 People",
+          "Size – 6 inches in Diameter"
+        ],
+        "delivery_info": [
+          "Our delivery boy hand-delivers the delicious cake in a good quality cardboard box.",
+          "Candles and knives are complementary, but they will deliver as per availability.",
+          "Every cake we offer is handcrafted, and since each chef has his/her way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+          "This product is perishable therefore delivery will be attempted once the delivery cannot redirect to any other address.",
+          "We promise express delivery to provide superior customer services with the delivery cannot redirect to any other address.",
+          "This product is hand delivered and will not deliver along with courier products. Occasionally, substitutions of flavors/designs are necessary due to temporary and regional unavailability issues"
+        ]
+      },
+      {
+        "name": "Cream Drop Chocolate Cakes",
+        "price": "₹599.00 – ₹1,099.00",
+        "weight": 1,
+        "city": "kolkata",
+        "category": "cake",
+        "multiple_price": [
+          { "weight": 0.5, "price": 649 },
+          { "weight": 1, "price": 1049 }
+        ],
+        "addons": [],
+        "reviews": [],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Cream-Drop-ChocolateCake5.1.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Cream-Drop-ChocolateCake5.2.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Cream-Drop-ChocolateCake5.3.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Cream-Drop-ChocolateCake5.4.jpg"
+        ],
+        "description": [
+          "FRUIT :1Kg",
+          "VANILLA : 1Kg",
+          "WEIGHT:0.5Kg , 1Kg ,2kg"
+        ],
+        "prod_details": [
+          "Cake Flavour – Chocolate",
+          "Version – Eggless",
+          "Type of Cake – Cream",
+          "Weight – Half Kg",
+          "Shape- Round",
+          "Serves – 4-6 People",
+          "Size – 6 inches in Diameter"
+        ],
+        "delivery_info": [
+          "Our delivery boy hand-delivers the delicious cake in a good quality cardboard box.",
+          "Candles and knives are complementary, but they will deliver as per availability.",
+          "Every cake we offer is handcrafted, and since each chef has his/her way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+          "This product is perishable therefore delivery will be attempted once the delivery cannot redirect to any other address.",
+          "We promise express delivery to provide superior customer services with the delivery cannot redirect to any other address.",
+          "This product is hand delivered and will not deliver along with courier products. Occasionally, substitutions of flavors/designs are necessary due to temporary and regional unavailability issues"
+        ]
+      }
+    ],
+    "candle_light": [
+      {
+        "name": "Candle Night Dinner ❤️🕯️",
+        "price": "12,999.00",
+        "addons": [],
+        "category": "candle_light",
+        "booked_dates": ["25-07-2023"],
+        "reviews": [],
+        "description": [
+          "Welcome mocktails",
+          "3 course veg meal – 2 starters, 2 mains, unlimited assorted breads, and 2 dessert",
+          "Beautifully decorated cabana at the fountain side",
+          "Ambient Music"
+        ],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2013/08/1night.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2013/08/2night.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2013/08/3night.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2013/08/4night.jpg"
+        ]
+      },
+      {
+        "name": "Private Cabana Dining At Umrao",
+        "price": "₹13,499.00",
+        "booked_dates": ["25-07-2023"],
+        "addons": [],
+        "category": "candle_light",
+        "reviews": [],
+        "description": [
+          "Welcome mocktails",
+          "3 course veg meal – 2 starters, 2 mains, unlimited assorted breads, and 2 dessert",
+          "Beautifully decorated cabana at the fountain side",
+          "Ambient Music"
+        ],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/06/Private-Cabana-Dining-by-Umrao-4.1.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/06/Private-Cabana-Dining-by-Umrao-4.2.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/06/Private-Cabana-Dining-by-Umrao-4.4.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/06/Private-Cabana-Dining-by-Umrao-4.5.png"
+        ]
+      },
+
+      {
+        "name": "The Vivan Hotel And Resort – Royal Suite(Double Occupancy)",
+        "price": "₹20,099.00",
+        "addons": [],
+        "category": "candle_light",
+        "booked_dates": ["25-07-2023"],
+        "reviews": [],
+        "description": [
+          "Welcome mocktails",
+          "3 course veg meal – 2 starters, 2 mains, unlimited assorted breads, and 2 dessert",
+          "Beautifully decorated cabana at the fountain side",
+          "Ambient Music"
+        ],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/06/valentinesaga-10-1.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/06/valentinesaga-3.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/06/valentinesaga-4.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/06/valentinesaga-5.png"
+        ]
+      },
+      {
+        "name": "The Vivan Hotel And Resort – Royal Suite(Double Occupancy)",
+        "price": "₹20,099.00",
+        "addons": [],
+        "category": "candle_light",
+        "booked_dates": ["25-07-2023"],
+        "reviews": [],
+        "description": [
+          "High-speed internet is available at the property",
+          "Breakfast timing will be at 7:30 – 10:30 am",
+          "There is accessible parking available at the venue"
+        ],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/06/valentinesaga-10-1.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/06/valentinesaga-3.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/06/valentinesaga-4.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/06/valentinesaga-5.png"
+        ]
+      },
+      {
+        "name": "Candle Light Experience At Mumbai",
+        "price": "₹4,000.00",
+        "addons": [],
+        "category": "candle_light",
+        "booked_dates": ["25-07-2023"],
+        "reviews": [],
+        "description": [
+          "Food :  2 mocktails, 1starter, 1 Main course, 1 desert",
+          "Meal type:  Indian / chinese / Muglai / sizzlers",
+          "Time duration: 1.5 hours",
+          "Guest : 2 persons / 1 couple",
+          "Half kg cake:  choco- truffle/pineapple, black forest"
+        ],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/06/Candle-light-Experience-2.1-1.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/06/Candle-light-Experience-2.2-1.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/06/Candle-light-Experience-2.3-1.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/06/Candle-light-Experience-2.4-1.png"
+        ]
+      }
+    ],
+    "flowers": [
+      {
+        "name": "Red Roses In Love You Sticker Vase",
+        "price": 749.0,
+        "city": "delhi",
+        "category": "flowers",
+        "reviews": [
+          { "name": "Michael", "msg": "Good Service", "rating_stars": 4 },
+          { "name": "Jack", "msg": "Fast delivery", "rating_stars": 4.5 }
+        ],
+        "description": [
+          "Origin- The rose is (according to fossil evidence) 35 million years old. Garden cultivation of roses began some 5,000 years ago, probably in China.",
+          "The rose also grows into a fruit. The fruit is called a Rose Hip. It is shaped like a berry and most are red in color but you can find black and dark purple versions.",
+          "Country of Origin : India"
+        ],
+        "prod_details": [
+          "9 Red Roses",
+          "Green Color Ping Pong Leaf Filler",
+          "Square Glass Vase- 4 x 4 Inches",
+          "Black Colour Love You Printed Peel Off Sticker"
+        ],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Red-Roses-In-Love-You-Sticker-Vase5.1JPG.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Red-Roses-In-Love-You-Sticker-Vase5.2JPG.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Red-Roses-In-Love-You-Sticker-Vase5.3JPG.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Red-Roses-In-Love-You-Sticker-Vase5.4JPG-1.jpg"
+        ],
+        "delivery_info": [
+          "The image displayed is indicative in nature.",
+          "Actual product may vary in shape or design as per the availability.",
+          "Flowers may be delivered in fully bloomed, semi-bloomed or bud stage.",
+          "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+          "Since flowers are perishable in nature, we will be able to attempt delivery of your order only once.",
+          "The delivery cannot be redirected to any other address.",
+          "This product is hand delivered and will not be delivered along with courier products.",
+          "Occasionally, substitution of flowers is necessary due to temporary and/or regional unavailability issues."
+        ]
+      },
+      {
+        "name": "Mixed Brilliance Gerbera Vase",
+        "price": 849.0,
+        "city": "kolkata",
+        "category": "flowers",
+        "reviews": [
+          { "name": "Michael", "msg": "Good Service", "rating_stars": 4 },
+          { "name": "Jack", "msg": "Fast delivery", "rating_stars": 4.5 }
+        ],
+        "description": [
+          "The basket can be reused as a potpourri holder or to store your small Knick knacks!",
+          "This Arrangement is made using Oasis foam that stores water in it and keeps your arrangement fresh for a longer time."
+        ],
+        "prod_details": [
+          "8 Mixed Color Gerberas",
+          "White Gypsophila Gypsy Flower Fillers",
+          "Beautifully arranged in a Glass vase- 9 inches",
+          "Decorated with a natural jute paper",
+          "Tied with a Red Raffia yarn",
+          "Country of Origin : India"
+        ],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Mixed-Brilliance-Gerbera-Vase6.1.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Mixed-Brilliance-Gerbera-Vase6.2.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Mixed-Brilliance-Gerbera-Vase6.3.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Mixed-Brilliance-Gerbera-Vase6.4.jpg"
+        ],
+        "delivery_info": [
+          "The image displayed is indicative in nature.",
+          "Actual product may vary in shape or design as per the availability.",
+          "Flowers may be delivered in fully bloomed, semi-bloomed or bud stage.",
+          "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+          "Since flowers are perishable in nature, we will be able to attempt delivery of your order only once.",
+          "The delivery cannot be redirected to any other address.",
+          "This product is hand delivered and will not be delivered along with courier products.",
+          "Occasionally, substitution of flowers is necessary due to temporary and/or regional unavailability issues."
+        ]
+      },
+      {
+        "name": "8 Yellow Carnations Bouquet- Small",
+        "price": 499.0,
+        "city": "chandigarh",
+        "category": "flowers",
+        "reviews": [
+          { "name": "Michael", "msg": "Good Service", "rating_stars": 4 },
+          { "name": "Jack", "msg": "Fast delivery", "rating_stars": 4.5 }
+        ],
+        "description": [
+          "For over 400 years, carnations are even used to add flavour to different liquors, beers and wines.",
+          "Carnations have long life while blooming, and even after they are cut, these flowers tend to sustain for longer periods of time.",
+          "Country of Origin : India"
+        ],
+        "prod_details": [
+          "Online Carnations Bouquet- Yellow",
+          "8 Yellow Carnations",
+          "Green Color Goldenrod Fillers",
+          "Wrapped in Yellow Paper",
+          "Tied with Yellow Ribbon"
+        ],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/03/8-Yellow-Carnations-Bouquet-Small1.1.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/8-Yellow-Carnations-Bouquet-Small1.2.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/8-Yellow-Carnations-Bouquet-Small1.3.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/8-Yellow-Carnations-Bouquet-Small1.4.jpg"
+        ],
+        "delivery_info": [
+          "The image displayed is indicative in nature.",
+          "Actual product may vary in shape or design as per the availability.",
+          "Flowers may be delivered in fully bloomed, semi-bloomed or bud stage.",
+          "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+          "Since flowers are perishable in nature, we will be able to attempt delivery of your order only once.",
+          "The delivery cannot be redirected to any other address.",
+          "This product is hand delivered and will not be delivered along with courier products.",
+          "Occasionally, substitution of flowers is necessary due to temporary and/or regional unavailability issues."
+        ]
+      },
+      {
+        "name": "8 Yellow Carnations Bouquet- Small",
+        "price": 1649.0,
+        "category": "flowers",
+        "city": "kolkata",
+        "reviews": [
+          { "name": "Michael", "msg": "Good Service", "rating_stars": 4 },
+          { "name": "Jack", "msg": "Fast delivery", "rating_stars": 4.5 }
+        ],
+        "description": [
+          "This Arrangement is made using Oasis foam that stores water in it and keeps your arrangement fresh for a longer time.",
+          "The basket can be reused as a potpourri holder or to store your small Knick knacks!",
+          "Country of Origin: India"
+        ],
+        "prod_details": [
+          "20 Pink Roses",
+          "8 Purple Orchids",
+          "Green Color Asparagus Fillers",
+          "One Brown Color Oval Shape Cane Basket 7 Inch"
+        ],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Roses-And-Orchids-Basket8.1.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Roses-And-Orchids-Basket8.2.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Roses-And-Orchids-Basket8.3.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Roses-And-Orchids-Basket8.4.jpg"
+        ],
+        "delivery_info": [
+          "The image displayed is indicative in nature.",
+          "Actual product may vary in shape or design as per the availability.",
+          "Flowers may be delivered in fully bloomed, semi-bloomed or bud stage.",
+          "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+          "Since flowers are perishable in nature, we will be able to attempt delivery of your order only once.",
+          "The delivery cannot be redirected to any other address.",
+          "This product is hand delivered and will not be delivered along with courier products.",
+          "Occasionally, substitution of flowers is necessary due to temporary and/or regional unavailability issues."
+        ]
+      },
+      {
+        "name": "Glorious Red & Yellow Gerbera Blossoms Bouquet",
+        "price": 599.0,
+        "city": "delhi",
+        "category": "flowers",
+        "reviews": [
+          { "name": "Michael", "msg": "Good Service", "rating_stars": 4 },
+          { "name": "Jack", "msg": "Fast delivery", "rating_stars": 4.5 }
+        ],
+        "description": [
+          "When your flowers arrive, just trim the stems and add water.",
+          "Re-cut 1-2” of the stems at a 45 degree angle."
+        ],
+        "prod_details": [
+          "4 Red Gerberas",
+          "4 Yellow Color Gerberas",
+          "Green Color Asparagus Fillers",
+          "Wrapped up with Red Non-Woven Paper",
+          "Tied with as Mixed colour ribbon",
+          "Country of Origin : India"
+        ],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Glorious-Red-Yellow-Gerbera-Blossoms-Bouquet3.1.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Glorious-Red-Yellow-Gerbera-Blossoms-Bouquet3.2.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Glorious-Red-Yellow-Gerbera-Blossoms-Bouquet3.3.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/Glorious-Red-Yellow-Gerbera-Blossoms-Bouquet3.4.jpg"
+        ],
+        "delivery_info": [
+          "The image displayed is indicative in nature.",
+          "Actual product may vary in shape or design as per the availability.",
+          "Flowers may be delivered in fully bloomed, semi-bloomed or bud stage.",
+          "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+          "Since flowers are perishable in nature, we will be able to attempt delivery of your order only once.",
+          "The delivery cannot be redirected to any other address.",
+          "This product is hand delivered and will not be delivered along with courier products.",
+          "Occasionally, substitution of flowers is necessary due to temporary and/or regional unavailability issues."
+        ]
+      }
+    ],
+    "Decorations": [
+      {
+        "name": "Dazzling Birthday Surprise",
+        "price": "2,499.00",
+        "city": "kolkata",
+        "category": "decorations",
+        "description": [
+          "Please ensure that someone is present in the room while the decoration is being done. Please take care of your valuables.",
+          "Message Card cannot be selected for this product and will not be delivered along with the product.",
+          "Time Required for Decoration – 45-60 minutes approx."
+        ],
+        "addons": [],
+        "reviews": [],
+        "prod_details": [
+          "Happy Birthday Foil Balloons",
+          "2 Star Foil Balloon",
+          "LED Lights- One around the decor & One on the floor",
+          "Champagne Glass Balloon or Whiskey Bottle Balloon (As per availability)",
+          "50 Black & White Balloons on the Floor",
+          "One Happy Birthday Banner"
+        ],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/03/b5.1-500x500.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/b5.2-500x500.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/b5.3-500x500.jpg",
+          "https://valentinesaga.com/wp-content/uploads/2023/03/b5.4-500x500.jpg"
+        ],
+        "delivery_info": [
+          "The image displayed is indicative in nature. Actual products may vary in shape, color, or design as per the availability.",
+          "We can decorate at your place or hotel room if you take permission from the hotel.",
+          "If case of a complaint, notice must be given within 2 hours of the delivery time of the experience.",
+          "No rescheduling or cancellation is possible after the decoration has been attempted."
+        ]
+      },
+      {
+        "name": "Pinky Princess Balloon Decor",
+        "price": "2,499.00",
+        "description": [
+          "The image shown here is indicative only, decoration will be done according to the balloons’ count.",
+          "The actual products may vary in shape, color, or design as per availability.",
+          "Our balloon expert will come to your home at your chosen slot and set up the balloons as shown in the images.",
+          "You’ll need to provide a stool to reach the ceiling.",
+          "We can decorate a hotel room if you gain permission from the hotel.",
+          "If case of a complaint, notice must be given within 2 hours of the delivery time of the experience No rescheduling or cancellation is possible after the decoration has been attempted."
+        ],
+        "addons": [],
+        "reviews": [],
+        "city": "delhi",
+        "category": "decorations",
+        "prod_details": [
+          "600 Total Balloons (Pink, White)",
+          "Two Heart Foil Balloon",
+          "1 Birthday foil Baloon",
+          "1 Name Foil balloon",
+          "1 Dight Foil Balloon"
+        ],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/04/Pinky-Princess-Balloon-Decor16.1.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/04/Pinky-Princess-Balloon-Decor16.1.png"
+        ],
+        "delivery_info": [
+          "The image displayed is indicative in nature. Actual products may vary in shape, color, or design as per the availability.",
+          "We can decorate at your place or hotel room if you take permission from the hotel.",
+          "If case of a complaint, notice must be given within 2 hours of the delivery time of the experience.",
+          "No rescheduling or cancellation is possible after the decoration has been attempted."
+        ]
+      },
+      {
+        "name": "Tricolour Theme Office Decoration",
+        "price": "₹3,599.00",
+        "description": [
+          "The image shown here is indicative only, decoration will be done according to the balloons’ count.",
+          "The actual products may vary in shape, color, or design as per availability.",
+          "Our balloon expert will come to your home at your chosen slot and set up the balloons as shown in the images.",
+          "You’ll need to provide a stool to reach the ceiling.",
+          "We can decorate a hotel room if you gain permission from the hotel.",
+          "If case of a complaint, notice must be given within 2 hours of the delivery time of the experience No rescheduling or cancellation is possible after the decoration has been attempted."
+        ],
+        "addons": [],
+        "city": "delhi",
+        "reviews": [],
+        "category": "decorations",
+        "prod_details": [
+          "300 Orange-White-Green Latex Balloons Arranged in Bunches",
+          "20 Balloons Arranged on Side Walls"
+        ],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/04/tricolour-theme-office-decora31.1.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/04/tricolour-theme-office-decora31.2.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/04/tricolour-theme-office-decora31.3.png"
+        ],
+        "delivery_info": [
+          "The image displayed is indicative in nature. Actual products may vary in shape, color, or design as per the availability.",
+          "We can decorate at your place or hotel room if you take permission from the hotel.",
+          "If case of a complaint, notice must be given within 2 hours of the delivery time of the experience.",
+          "No rescheduling or cancellation is possible after the decoration has been attempted."
+        ]
+      },
+      {
+        "name": "Tricolour Theme Office Decoration",
+        "price": "59,999.00",
+        "description": [
+          "Please ensure that someone is present in the room while the decoration is being done. Please take care of your valuables.",
+          "Message Card cannot be selected for this product and will not be delivered along with the product.",
+          "Time Required for Decoration – 5-6 Hours approx."
+        ],
+        "addons": [],
+        "city": "chandigarh",
+        "reviews": [],
+        "category": "decorations",
+        "prod_details": [
+          "Happy Birthday Alphabets Neon Sign",
+          "2 LED Marquee Frames both the side",
+          "2 Each Gold & Silver Shimmer Panel Wall in between the LED Marquee Frames",
+          "Birthday Baby’s Name in Golden Light LED Marquee Letters",
+          "ONE Alphabet LED Strip Letter",
+          "1000 White, Pink, Sky Blue, Orange, Red & Move Matte Mix Themed Balloons For Hanging In A Row, At The Entrance, For side Small Pillars & Centre Piece Decoration"
+        ],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/04/Candyland-Theme-Birthday-Party-Decora26.1.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/04/Candyland-Theme-Birthday-Party-Decora26.2.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/04/Candyland-Theme-Birthday-Party-Decora26.4.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/04/Candyland-Theme-Birthday-Party-Decora26.5.png"
+        ],
+        "delivery_info": [
+          "The image displayed is indicative in nature. Actual products may vary in shape, color, or design as per the availability.",
+          "We can decorate at your place or hotel room if you take permission from the hotel.",
+          "If case of a complaint, notice must be given within 2 hours of the delivery time of the experience.",
+          "No rescheduling or cancellation is possible after the decoration has been attempted."
+        ]
+      },
+      {
+        "name": "Brighter Balloon Surprise",
+        "price": "2,599.00",
+        "description": [
+          "Please ensure that someone is present in the room while the decoration is being done. Please take care of your valuables.",
+          "Message Card cannot be selected for this product and will not be delivered along with the product.",
+          "Time Required for Decoration – 5-6 Hours approx."
+        ],
+        "addons": [],
+        "category": "decorations",
+        "reviews": [],
+        "city": "kolkata",
+        "prod_details": [
+          "75 Metallic Balloons ( Golden & Black)",
+          "1 happy birthday Foil Banner",
+          "1 Happy Birthday Banner",
+          "Two Star Foil Balloons"
+        ],
+        "image": [
+          "https://valentinesaga.com/wp-content/uploads/2023/04/Brighter-Balloon-Surprise18.1-1.png",
+          "https://valentinesaga.com/wp-content/uploads/2023/04/Brighter-Balloon-Surprise18.1-1.png"
+        ],
+        "delivery_info": [
+          "The image displayed is indicative in nature. Actual products may vary in shape, color, or design as per the availability.",
+          "We can decorate at your place or hotel room if you take permission from the hotel.",
+          "If case of a complaint, notice must be given within 2 hours of the delivery time of the experience.",
+          "No rescheduling or cancellation is possible after the decoration has been attempted."
+        ]
+      }
+    ]
+  }
+}
