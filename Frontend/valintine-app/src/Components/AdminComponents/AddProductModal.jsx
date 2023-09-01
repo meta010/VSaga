@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { handle_add_product_by_admin, handle_add_product_by_admin2, handlegetproducts } from "../../Redux/action";
 import { MdDelete } from "react-icons/md";
@@ -25,16 +25,51 @@ export default function AddProductModal({ id }) {
   const { loading, error } = useState()
   const dispatch = useDispatch()
 
-  const handleImages = (i) => {
-    if (i >= 0) {
-      let tempimg = [...images];
-      tempimg.splice(i, 1);
-      setimages(tempimg);
-    } else {
-      setimages([...images, images.length + 1]);
-    }
+  useEffect(() => {
+
+  }, [Multiple_price, slots, addons, Proddetails,Product_category,Desc,Delivery_info])
+  const handleImages = (index) => {
+    const updatedImageLists = [...images];
+    updatedImageLists.splice(index, 1);
+    setimages(updatedImageLists);
+  };
+  const handleDeletePrice = (index) => {
+    const updatedPriceLists = [...Multiple_price];
+    updatedPriceLists.splice(index, 1);
+    setMultiple_price(updatedPriceLists);
   };
 
+  const handleDeleteTime = (index) => {
+    const updatedTimeList = [...slots];
+    updatedTimeList.splice(index, 1);
+    setslots(updatedTimeList);
+  };
+  const handleDeleteAddons = (index) => {
+    const updatedAddonsList = [...addons];
+    updatedAddonsList.splice(index, 1);
+    setaddons(updatedAddonsList);
+  };
+  const handleDeleteProd = (index) => {
+    const updatedProdList = [...Proddetails];
+    updatedProdList.splice(index, 1);
+    setProddetails(updatedProdList);
+  };
+  const handleDeleteProdcategory = (index) => {
+    const updatedProdcategoryList = [...Product_category];
+    updatedProdcategoryList.splice(index, 1);
+    setProduct_category(updatedProdcategoryList);
+  };
+
+  const handleDeleteDesc = (index) => {
+    const updatedDescList = [...Desc];
+    updatedDescList.splice(index, 1);
+    setDesc(updatedDescList);
+  };
+  const handleDeleteDel = (index) => {
+    const updatedDelList = [...Delivery_info];
+    updatedDelList.splice(index, 1);
+    setDelivery_info(updatedDelList);
+  };
   const handleProd_details = (i) => {
     setProddetails([...Proddetails, Proddetails.length + 1]);
   };
@@ -76,8 +111,8 @@ export default function AddProductModal({ id }) {
 
     }
 
-    
-    
+
+
     // Image convert into url from Aws
     // for (let i = 0; i < imgurls.length; i++) {
     //   const formData = new FormData();
@@ -89,7 +124,7 @@ export default function AddProductModal({ id }) {
 
     // }
 
-  
+
 
     let desc = document.querySelectorAll(".description")
     let description = []
@@ -200,7 +235,7 @@ export default function AddProductModal({ id }) {
     const video_link = document.querySelector("#video_link").value || ""
 
 
-   
+
 
     onClose()
     let timer
@@ -210,38 +245,38 @@ export default function AddProductModal({ id }) {
     }
 
 
-setTimeout(() => {
-  
-  
-  let obj = {
-      name: name,
-      category: category,
-      subcategory: subcategory,
-      price: price,
-      city: city,
-      image: imgurls,
-      prod_details: product_details,
-      description: description,
-      multiple_price: multiple_price_arr,
-      addons: Addons,
-      delivery_info: Delivery_info,
-      pincodes: pincodes?.split(","),
-      Product_category, slots: actualslots, video_link
-    };
+    setTimeout(() => {
 
-   
-    dispatch(handle_add_product_by_admin2(obj)).then((res) => {
-      
-      if (res.status == 200 || res.status == 201) {
-        
-        alert("Product added successfully")
-      } else {
-        alert("error")
-        
-      }
-    })
-    
-  }, 2000);
+
+      let obj = {
+        name: name,
+        category: category,
+        subcategory: subcategory,
+        price: price,
+        city: city,
+        image: imgurls,
+        prod_details: product_details,
+        description: description,
+        multiple_price: multiple_price_arr,
+        addons: Addons,
+        delivery_info: Delivery_info,
+        pincodes: pincodes?.split(","),
+        Product_category, slots: actualslots, video_link
+      };
+
+
+      dispatch(handle_add_product_by_admin2(obj)).then((res) => {
+
+        if (res.status == 200 || res.status == 201) {
+
+          alert("Product added successfully")
+        } else {
+          alert("error")
+
+        }
+      })
+
+    }, 2000);
 
 
   };
@@ -327,62 +362,62 @@ setTimeout(() => {
                   <label htmlFor="">SubCategory</label>
                   {/* <input type="text" id="subcategory" placeholder="Enter Name of SubCategory" /> */}
                   <select id="subcategory">
-                          <option value="Kids Birthday Decoration">Kids Birthday Decoration</option>
-                          <option value="Red Velvet">Red Velvet</option>
-                          <option value="Welcome Baby Decorations">Welcome Baby Decorations</option>
-                          <option value="Baby Shower Decorations">Baby Shower Decorations</option>
-                          <option value="Birthday Activities">Birthday Activities</option>
-                          <option value="Naming Ceremony Decorations">Naming Ceremony Decorations</option>
-                          <option value="Themed Birthday Cakes">Themed Birthday Cakes</option>
-                          <option value="1st Birthday Decorations">1st Birthday Decorations</option>
-                          <option value="Balloon Bouquets">Balloon Bouquets</option>
-                          <option value="Annaprashan Decorations">Annaprashan Decorations</option>
-                          <option value="Candlelight Dinners in NCR">Candlelight Dinners in NCR</option>
-                          <option value="Private Candlelight Dinners">Private Candlelight Dinners</option>
-                          <option value="Lunch Specials">Lunch Specials</option>
-                          <option value="Cabana Dining Experience">Cabana Dining Experience</option>
-                          <option value="Dining at 5 Star Properties">Dining at 5 Star Properties</option>
-                          <option value="Outdoor Candlelight Dining">Outdoor Candlelight Dining</option>
-                          <option value="Poolside Candlelight Dinners">Poolside Candlelight Dinners</option>
-                          <option value="Pocket Friendly Candlelight Dinners">Pocket Friendly Candlelight Dinners</option>
-                          <option value="Private Movie And Dinners">Private Movie And Dinners</option>
-                          <option value="Balloon Decorations">Balloon Decorations</option>
-                          <option value="Birthday Decorations">Birthday Decorations</option>
-                          <option value="Car Boot Decorations">Car Boot Decorations</option>
-                          <option value="First Night Decorations">First Night Decorations</option>
-                          <option value="Bachelorette Decorations">Bachelorette Decorations</option>
-                          <option value="Ganesh Chaturthi Decorations">Ganesh Chaturthi Decorations</option>
-                          <option value="Birthday Cakes">Birthday Cakes</option>
-                          <option value="Kid's Birthday Cakes">Kid's Birthday Cakes</option>
-                          <option value="Anniversary Cakes">Anniversary Cakes</option>
-                          <option value="1st Anniversary Cake">1st Anniversary Cake</option>
-                          <option value="25th Anniversary Cake">25th Anniversary Cake</option>
-                          <option value="Truffle Cakes">Truffle Cakes</option>
-                          <option value="Chocolate Cakes">Chocolate Cakes</option>
-                          <option value="Black Forest Cakes">Black Forest Cakes</option>
-                          <option value="Butterscotch Cakes">Butterscotch Cakes</option>
-                          <option value="Pineapple Cakes">Pineapple Cakes</option>
-                          <option value="Photo Cakes">Photo Cakes</option>
-                          <option value="Designer Cakes">Designer Cakes</option>
-                          <option value="Dry Cakes">Dry Cakes</option>
-                          <option value="Roses">Roses</option>
-                          <option value="Carnations">Carnations</option>
-                          <option value="Orchids">Orchids</option>
-                          <option value="Gerberas">Gerberas</option>
-                          <option value="Lilies">Lilies</option>
-                          <option value="Mixed Flowers">Mixed Flowers</option>
-                          <option value="Exotic Flowers ">Exotic Flowers </option>
-                          <option value="Same Day Delivery">Same Day Delivery</option>
-                          <option value="Premium Flowers">Premium Flowers</option>
-                          <option value="New Arrivals">New Arrivals</option>
-                          <option value="Flowers N Cakes">Flowers N Cakes</option>
-                          <option value="Flowers N Chocolates">Flowers N Chocolates</option>
-                          <option value="Birthday">Birthday</option>
-                          <option value="Anniversary">Anniversary</option>
-                          <option value="Love N Romance">Love N Romance</option>
-                          <option value="Congratulations">Congratulations</option>
-                          <option value="Gifts & Surprises">Gifts & Surprises</option>
-                        </select>
+                    <option value="Kids Birthday Decoration">Kids Birthday Decoration</option>
+                    <option value="Red Velvet">Red Velvet</option>
+                    <option value="Welcome Baby Decorations">Welcome Baby Decorations</option>
+                    <option value="Baby Shower Decorations">Baby Shower Decorations</option>
+                    <option value="Birthday Activities">Birthday Activities</option>
+                    <option value="Naming Ceremony Decorations">Naming Ceremony Decorations</option>
+                    <option value="Themed Birthday Cakes">Themed Birthday Cakes</option>
+                    <option value="1st Birthday Decorations">1st Birthday Decorations</option>
+                    <option value="Balloon Bouquets">Balloon Bouquets</option>
+                    <option value="Annaprashan Decorations">Annaprashan Decorations</option>
+                    <option value="Candlelight Dinners in NCR">Candlelight Dinners in NCR</option>
+                    <option value="Private Candlelight Dinners">Private Candlelight Dinners</option>
+                    <option value="Lunch Specials">Lunch Specials</option>
+                    <option value="Cabana Dining Experience">Cabana Dining Experience</option>
+                    <option value="Dining at 5 Star Properties">Dining at 5 Star Properties</option>
+                    <option value="Outdoor Candlelight Dining">Outdoor Candlelight Dining</option>
+                    <option value="Poolside Candlelight Dinners">Poolside Candlelight Dinners</option>
+                    <option value="Pocket Friendly Candlelight Dinners">Pocket Friendly Candlelight Dinners</option>
+                    <option value="Private Movie And Dinners">Private Movie And Dinners</option>
+                    <option value="Balloon Decorations">Balloon Decorations</option>
+                    <option value="Birthday Decorations">Birthday Decorations</option>
+                    <option value="Car Boot Decorations">Car Boot Decorations</option>
+                    <option value="First Night Decorations">First Night Decorations</option>
+                    <option value="Bachelorette Decorations">Bachelorette Decorations</option>
+                    <option value="Ganesh Chaturthi Decorations">Ganesh Chaturthi Decorations</option>
+                    <option value="Birthday Cakes">Birthday Cakes</option>
+                    <option value="Kid's Birthday Cakes">Kid's Birthday Cakes</option>
+                    <option value="Anniversary Cakes">Anniversary Cakes</option>
+                    <option value="1st Anniversary Cake">1st Anniversary Cake</option>
+                    <option value="25th Anniversary Cake">25th Anniversary Cake</option>
+                    <option value="Truffle Cakes">Truffle Cakes</option>
+                    <option value="Chocolate Cakes">Chocolate Cakes</option>
+                    <option value="Black Forest Cakes">Black Forest Cakes</option>
+                    <option value="Butterscotch Cakes">Butterscotch Cakes</option>
+                    <option value="Pineapple Cakes">Pineapple Cakes</option>
+                    <option value="Photo Cakes">Photo Cakes</option>
+                    <option value="Designer Cakes">Designer Cakes</option>
+                    <option value="Dry Cakes">Dry Cakes</option>
+                    <option value="Roses">Roses</option>
+                    <option value="Carnations">Carnations</option>
+                    <option value="Orchids">Orchids</option>
+                    <option value="Gerberas">Gerberas</option>
+                    <option value="Lilies">Lilies</option>
+                    <option value="Mixed Flowers">Mixed Flowers</option>
+                    <option value="Exotic Flowers ">Exotic Flowers </option>
+                    <option value="Same Day Delivery">Same Day Delivery</option>
+                    <option value="Premium Flowers">Premium Flowers</option>
+                    <option value="New Arrivals">New Arrivals</option>
+                    <option value="Flowers N Cakes">Flowers N Cakes</option>
+                    <option value="Flowers N Chocolates">Flowers N Chocolates</option>
+                    <option value="Birthday">Birthday</option>
+                    <option value="Anniversary">Anniversary</option>
+                    <option value="Love N Romance">Love N Romance</option>
+                    <option value="Congratulations">Congratulations</option>
+                    <option value="Gifts & Surprises">Gifts & Surprises</option>
+                  </select>
                   <label htmlFor="">Images (size:1200X800)</label>
                   {images?.map((el, i) => {
                     return (
@@ -403,29 +438,29 @@ setTimeout(() => {
                   <label htmlFor="">City</label>
                   {/* <input type="text" id="city" placeholder="Enter Name of City" /> */}
                   <select className="starttime" id="city">
-                          <option value="delhi">Delhi</option>
-                          <option value="jaipur">Jaipur</option>
-                          <option value="bangalore">Bangalore</option>
-                          <option value="kolkata">Kolkata</option>
-                          <option value="indore">Indore</option>
-                          <option value="pune">Pune</option>
-                          <option value="all india">ALL India</option>
-                          <option value="hyderabad">Hyderabad</option>
-                          <option value="mumbai">Mumbai</option>
-                          <option value="kanpur">Kanpur</option>
-                          <option value="chennai">Chennai</option>
-                          <option value="jammu">Jammu</option>
-                          <option value="lucknow">Lucknow</option>
-                          <option value="chandigarh">Chandigarh</option>
-                          <option value="hyderabad">Hyderabad</option>
-                        </select>
+                    <option value="delhi">Delhi</option>
+                    <option value="jaipur">Jaipur</option>
+                    <option value="bangalore">Bangalore</option>
+                    <option value="kolkata">Kolkata</option>
+                    <option value="indore">Indore</option>
+                    <option value="pune">Pune</option>
+                    <option value="all india">ALL India</option>
+                    <option value="hyderabad">Hyderabad</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="kanpur">Kanpur</option>
+                    <option value="chennai">Chennai</option>
+                    <option value="jammu">Jammu</option>
+                    <option value="lucknow">Lucknow</option>
+                    <option value="chandigarh">Chandigarh</option>
+                    <option value="hyderabad">Hyderabad</option>
+                  </select>
                   <label htmlFor="">Multiple_price</label>
-                  {Multiple_price.map(() => {
+                  {Multiple_price.map((item, index) => {
                     return (
                       <div style={{ display: "flex", marginTop: "5px" }}>
                         <input className="multiple_Price_weight" type="text" placeholder="Enter Name of Weight" />
                         <input className="multiple_Price_price" type="text" placeholder="Enter Name of Price" />
-                        <MdDelete color="#3498db" size={"50px"} cursor={"pointer"} />
+                        <MdDelete color="#3498db" size={"50px"} cursor={"pointer"} onClick={() => handleDeletePrice(index)} />
                       </div>
                     );
                   })}
@@ -433,56 +468,57 @@ setTimeout(() => {
                   <label htmlFor="">Slots</label>
 
 
-                  {slots.map(() => {
-                    return <>
-                      <div>
+                  {slots.map((index) => {
+                    return  <div>
+                        <div>
 
-                        <label htmlFor="">Start Time</label>
-                        <select className="starttime">
-                          <option value="1">1</option>
-                          <option value="2">2</option>
-                          <option value="3">3</option>
-                          <option value="4">4</option>
-                          <option value="5">5</option>
-                          <option value="6">6</option>
-                          <option value="7">7</option>
-                          <option value="8">8</option>
-                          <option value="9">9</option>
-                          <option value="10">10</option>
-                          <option value="11">11</option>
-                          <option value="12">12</option>
-                        </select>
+                          <label htmlFor="">Start Time</label>
+                          <select className="starttime">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                          </select>
 
-                        <select className="starttime-words">
-                          <option value="AM">AM</option>
-                          <option value="PM">PM</option>
-                        </select>
+                          <select className="starttime-words">
+                            <option value="AM">AM</option>
+                            <option value="PM">PM</option>
+                          </select>
+                        </div>
+                        <div>
+
+                          <label htmlFor="">End Time</label>
+                          <select className="endtime">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                          </select>
+
+                          <select className="endtime-words">
+                            <option value="AM">AM</option>
+                            <option value="PM">PM</option>
+                          </select>
+                        </div>
+                        <MdDelete color="#3498db" size={"50px"} cursor={"pointer"} onClick={() => handleDeleteTime(index)} />
                       </div>
-                      <div>
-
-                        <label htmlFor="">End Time</label>
-                        <select className="endtime">
-                          <option value="1">1</option>
-                          <option value="2">2</option>
-                          <option value="3">3</option>
-                          <option value="4">4</option>
-                          <option value="5">5</option>
-                          <option value="6">6</option>
-                          <option value="7">7</option>
-                          <option value="8">8</option>
-                          <option value="9">9</option>
-                          <option value="10">10</option>
-                          <option value="11">11</option>
-                          <option value="12">12</option>
-                        </select>
-
-                        <select className="endtime-words">
-                          <option value="AM">AM</option>
-                          <option value="PM">PM</option>
-                        </select>
-                      </div>
-                      <MdDelete color="#3498db" size={"50px"} cursor={"pointer"} />
-                    </>
+                   
                   })}
 
 
@@ -490,7 +526,7 @@ setTimeout(() => {
                   <Button onClick={handle_add_slots}>Add more Rows</Button>
 
                   <label htmlFor="">Addons (size:500X300)</label>
-                  {addons.map(() => {
+                  {addons.map((item, index) => {
                     return (
                       <div style={{ marginTop: "5px" }}>
                         <input style={{ marginTop: "5px" }} className="addons-name" type="text" placeholder="Enter Name of Addon" />
@@ -500,14 +536,14 @@ setTimeout(() => {
                         <input style={{ marginTop: "5px" }} className="addons-img" type="text" placeholder="Enter Image url  of Addon" />
                         <br />
                         <input style={{ marginTop: "5px" }} className="addons-price" type="text" placeholder="Enter Price of Addon" />
-                        <MdDelete color="#3498db" size={"30px"} cursor={"pointer"} />
+                        <MdDelete color="#3498db" size={"30px"} cursor={"pointer"} onClick={() => handleDeleteAddons(index)} />
                       </div>
                     );
                   })}
                   <Button onClick={handleAddons}>Add more Rows</Button>
 
                   <label htmlFor="">Product Details</label>
-                  {Proddetails.map(() => {
+                  {Proddetails.map((item, index) => {
                     return (
                       <div style={{ display: "flex", marginTop: "5px" }}>
                         <input
@@ -515,7 +551,7 @@ setTimeout(() => {
                           type="text"
                           placeholder="Enter Name of Prod_details"
                         />
-                        <MdDelete color="#3498db" size={"30px"} cursor={"pointer"} />
+                        <MdDelete color="#3498db" size={"30px"} cursor={"pointer"} onClick={() => handleDeleteProd(index)} />
                       </div>
                     );
                   })}
@@ -555,7 +591,7 @@ setTimeout(() => {
                   <Button onClick={handle_offers}>Add more Rows</Button> */}
 
                   <label htmlFor="">Product category</label>
-                  {Product_category.map(() => {
+                  {Product_category.map((item,index) => {
                     return (
                       <div style={{ display: "flex", marginTop: "5px" }}>
                         {/* <input
@@ -563,7 +599,7 @@ setTimeout(() => {
                           type="text"
                           placeholder="Enter Product Category Name"
                         /> */}
-                         <select className="prod_cat_name" style={{width:"300px",fontSize:"18px"}}>
+                        <select className="prod_cat_name" style={{ width: "300px", fontSize: "18px" }}>
                           <option value="veg">Veg</option>
                           <option value="nonveg">NonVeg</option>
                           <option value="eggless">Eggless</option>
@@ -574,7 +610,7 @@ setTimeout(() => {
                           type="text"
                           placeholder="Enter Product Category Price"
                         />
-                        <MdDelete color="#3498db" size={"50px"} cursor={"pointer"} />
+                        <MdDelete color="#3498db" size={"50px"} cursor={"pointer"} onClick={()=>handleDeleteProdcategory(index)}/>
                       </div>
                     );
                   })}
@@ -593,7 +629,7 @@ setTimeout(() => {
 
                           placeholder={`Enter Line ${i + 1} Description`}
                         />
-                        <MdDelete color="#3498db" size={"30px"} cursor={"pointer"} />
+                        <MdDelete color="#3498db" size={"30px"} cursor={"pointer"} onClick={()=>handleDeleteDesc(i)}/>
                       </div>
                     );
                   })}
@@ -608,7 +644,7 @@ setTimeout(() => {
                           type="text"
                           placeholder={`Enter Line ${i + 1} of Delivery_info`}
                         />
-                        <MdDelete color="#3498db" size={"30px"} cursor={"pointer"} />
+                        <MdDelete color="#3498db" size={"30px"} cursor={"pointer"} onClick={()=>handleDeleteDel(i)}/>
                       </div>
                     );
                   })}
