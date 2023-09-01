@@ -328,6 +328,7 @@ setTimeout(() => {
                   {/* <input type="text" id="subcategory" placeholder="Enter Name of SubCategory" /> */}
                   <select id="subcategory">
                           <option value="Kids Birthday Decoration">Kids Birthday Decoration</option>
+                          <option value="Red Velvet">Red Velvet</option>
                           <option value="Welcome Baby Decorations">Welcome Baby Decorations</option>
                           <option value="Baby Shower Decorations">Baby Shower Decorations</option>
                           <option value="Birthday Activities">Birthday Activities</option>
