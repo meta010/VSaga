@@ -3,7 +3,7 @@
 
 ### The project currently in under construction but 80% completed with backend
 
-### Deployed link :- https://valintine-app-uzairmd073-gmailcom.vercel.app/
+### Deployed link :- https://www.valentinesaga.com/
 
 
 Some Highlights :- 
